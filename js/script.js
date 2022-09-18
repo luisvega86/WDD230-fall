@@ -1,5 +1,5 @@
 // let currentDateAndTime = Date();
-const lastModif = Date(document.lastModified);
+const lastModif = new Date(document.lastModified);
 // console.log(`Last update ${currentDateAndTime}`);
 // console.log(document.lastModified);
 // console.log(Date(document.lastModified));
